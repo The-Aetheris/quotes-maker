@@ -8,8 +8,8 @@
     "quotes-maker": "src/cli.js"
   },
   "scripts": {
-    "start": "node src/cli.js",
-    "dev": "node --watch src/cli.js",
+    "start": "node api.js && node src/cli.js",
+    "dev": "node api.js && node --watch src/cli.js",
     "test": "node test/render.test.js"
   },
   "keywords": [
